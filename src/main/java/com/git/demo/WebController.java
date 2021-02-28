@@ -26,4 +26,9 @@ public class WebController {
         return "pong2";
     }
 
+    @GetMapping("/ping6")
+    public String ping6() {
+        return "pong6";
+    }
+
 }
