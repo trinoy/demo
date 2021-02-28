@@ -42,4 +42,9 @@ public class WebController {
         return "pong8";
     }
 
+    @GetMapping("/ping9")
+    public String ping9() {
+        return "pong9";
+    }
+
 }
